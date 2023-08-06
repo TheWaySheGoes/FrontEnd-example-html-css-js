@@ -1,10 +1,17 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     /*header*/
-/*
+    /*
     body * {
         border: 1pt solid black;
     }
 */
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        display: block;
+    }
 
     #header_nav {
         display: flex;
