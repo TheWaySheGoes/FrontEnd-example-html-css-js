@@ -1,0 +1,163 @@
+body * {
+    border: 1pt solid black;
+}
+
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background-image: url("../image/backgr1.jpg");
+    background-size: cover;
+}
+
+:root {}
+
+/*header*/
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: block;
+}
+
+#header {
+    margin: 2%;
+    min-height: 20%;
+}
+
+.header_nav_link:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+#header_nav {
+    margin: 2%;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.header_nav_link {
+    margin: 1%;
+    font-family: Pacifico-Regular, Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/*main*/
+
+main {
+    margin: 2%;
+}
+
+/*section*/
+
+.main_section {
+    margin: 1%;
+    margin-top: 5%;
+}
+
+/*article*/
+
+article {
+    margin: 1%;
+}
+
+/*h1*/
+
+h1 {
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+/*p*/
+p {
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+/*cupcakes*/
+
+#cupcakes_container {
+
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#cupcakes_container>article {
+    max-width: 15%;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15pt;
+    
+}
+
+#cupcakes_container>article>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+
+}
+
+/*weddingcakes*/
+
+#wedding_cakes_container {
+
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#wedding_cakes_container>article {
+    max-width: 15%;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15pt;
+}
+
+#wedding_cakes_container>article>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+
+}
+
+/*footer*/
+
+.footer_nav_link:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+#footer_nav {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer_nav_link {
+    margin: 1%;
+}
+
+footer {
+    margin: 2%;
+    min-height: 20%;
+}
