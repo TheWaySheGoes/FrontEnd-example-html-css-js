@@ -1,13 +1,16 @@
-body * {
-    border: 1pt solid black;
-}
-
 @font-face {
     font-family: 'Pacifico-Regular';
     src: url('../font/Pacifico-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
+
+@font-face {
+    font-family: 'Borel-Regular';
+    src: url('../font/Borel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background-image: url("../image/backgr1.jpg");
@@ -63,6 +66,8 @@ main {
 .main_section {
     margin: 1%;
     margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10pt;
 }
 
 /*article*/
@@ -77,6 +82,7 @@ h1 {
     text-align: center;
     margin: auto;
     width: auto;
+    font-family: Borel-Regular, Arial, Helvetica, sans-serif;
 }
 
 /*p*/
@@ -100,9 +106,8 @@ p {
     max-width: 15%;
     justify-self: center;
     align-self: center;
-    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15pt;
-    
+
 }
 
 #cupcakes_container>article>img {
@@ -127,7 +132,6 @@ p {
     max-width: 15%;
     justify-self: center;
     align-self: center;
-    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15pt;
 }
 
@@ -143,7 +147,7 @@ p {
 
 .footer_nav_link:visited {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 #footer_nav {
@@ -155,6 +159,7 @@ p {
 
 .footer_nav_link {
     margin: 1%;
+    color: rgb(0, 0, 0);
 }
 
 footer {
