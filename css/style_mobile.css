@@ -1,10 +1,10 @@
 @media screen and (max-width: 700px) {
     /*header*/
-
+/*
     body * {
         border: 1pt solid black;
     }
-
+*/
 
     #header_nav {
         display: flex;
@@ -17,6 +17,7 @@
     .header_nav_link {
         flex: auto;
         text-align: center;
+        border: 1px solid black;
     }
 
     /*cupcakes*/

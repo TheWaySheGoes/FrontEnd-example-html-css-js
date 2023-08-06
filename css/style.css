@@ -53,6 +53,9 @@ body {
     color: rgb(0, 0, 0);
     font-size: 32px;
     text-decoration: none;
+    backdrop-filter: blur(10px);
+    border-radius: 5pt;
+    box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.1);
 }
 
 /*main*/
@@ -61,13 +64,16 @@ main {
     margin: 2%;
 }
 
-/*section*/
+/*section*//*    background-color: rgba(255, 255, 255, 0.2);*/
 
 .main_section {
     margin: 1%;
     margin-top: 5%;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10pt;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5pt;
+    box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.1);
+
 }
 
 /*article*/
@@ -106,14 +112,14 @@ p {
     max-width: 15%;
     justify-self: center;
     align-self: center;
-    border-radius: 15pt;
-
+    border-radius: 5pt;
 }
 
 #cupcakes_container>article>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
     max-width: 75%;
 
 }
@@ -132,7 +138,7 @@ p {
     max-width: 15%;
     justify-self: center;
     align-self: center;
-    border-radius: 15pt;
+    border-radius: 5pt;
 }
 
 #wedding_cakes_container>article>img {
