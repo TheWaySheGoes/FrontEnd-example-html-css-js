@@ -3,6 +3,7 @@
     body {
         background-attachment: fixed;
     }
+
     /*header*/
 
     #logo {
@@ -28,8 +29,11 @@
 
     /*main*/
 
-    .main_section {
+    .main_section {}
 
+    .form {
+        margin: auto;
+        display: block;
     }
 
     /*section*/
@@ -86,7 +90,7 @@
         text-align: center;
     }
 
-    footer{
+    footer {
         margin-bottom: 1px;
 
     }

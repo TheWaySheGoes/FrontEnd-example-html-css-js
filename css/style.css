@@ -68,7 +68,8 @@ main {
 
 .form
 {
-
+    margin: auto;
+    margin-left: 25%;
     display: block;
 }
 
