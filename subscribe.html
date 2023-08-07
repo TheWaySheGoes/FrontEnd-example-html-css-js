@@ -23,21 +23,21 @@
     </header>
 
     <main>
-        <section>
-            <h1></h1>
+        <section class="main_section">
+            <article>
+                <h1>Subscribe</h1>
+            </article>
         </section>
 
-        <section class="main_section" id="cupcakes">
-            <h1 class="main_section_header">Cupcakes</h1>
-            <div id="cupcakes_container">
-            </div>
+        <section class="main_section">
+
+            <form class="form">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required="true"><br><br>
+                <input type="button" value="Submit" onclick="alert('Subscribed')">
+            </form>
         </section>
 
-        <section class="main_section" id="wedding_cakes">
-            <h1 class="main_section_header">Wedding Cakes</h1>
-            <div id="wedding_cakes_container">
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -49,7 +49,6 @@
         </nav>
     </footer>
 
-    <script src="js/products.js"></script>
 </body>
 
 </html>

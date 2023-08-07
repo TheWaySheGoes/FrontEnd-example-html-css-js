@@ -23,23 +23,39 @@
     </header>
 
     <main>
-        <form action="sendForm()">
+        <section class="main_section">
+            <article>
+                <h1>Contact Us</h1>
+                <p>
+                    Home delivery service: All the city of Stockholm (redacted) and Malmo (redacted) with
+                    additional cost.
+                </p>
+                <p>
+                    Place to pick up order: Via la Costa Avenue. Blue Port gated neighbourhood. We will
+                    send you the GPS Location via WhatsApp.
+                </p>
+                <p>
+                    Orders must be placed 2 days before for greater security, processing and availability.
+                </p>
+                <p>
+                    Tuesday to Saturday
+                    9 a.m. at 2 p.m.
+                </p>
+            </article>
+        </section>
 
-            <main>
-                <article>
-                    <p>
-                        Home delivery service: All the city of Stockholm (redacted) and Malmo (redacted) with
-                        additional cost.
-                        Place to pick up order: Via la Costa Avenue. Blue Port gated neighbourhood. We will
-                        send you the GPS Location via WhatsApp.
-                        Orders must be placed 2 days before for greater security, processing and availability.
-                        Tuesday to Saturday
-                        9 a.m. at 2 p.m.
-                    </p>
-                </article>
-            </main>
-
-        </form>
+        <section class="main_section">
+            <article>
+                <form class="form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required="true"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required="true"><br><br>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea><br><br>
+                    <input type="button" value="Submit" onclick="alert('Email send')">
+                </form>
+            </article>
+        </section>
     </main>
 
     <footer>
@@ -47,6 +63,7 @@
             <a class="footer_nav_link" href="https://www.instagram.com/munamii.cakery/">Instagram</a>
             <a class="footer_nav_link" href="https://www.facebook.com/munamiicupcakes/">Facebook</a>
             <a class="footer_nav_link" href="contact.html">Contact</a>
+            <a class="footer_nav_link" href="subscribe.html">Subscribe</a>
         </nav>
     </footer>
 
